@@ -1,15 +1,14 @@
 var backdrop = document.querySelector(".backdrop");
 var modal = document.querySelector(".modal");
-var modalNoButton = document.querySelector(".modal__action--negative");
+var modalNoButton = document.querySelector(".modalCloseButton");
 var selectAlumnusButtons = document.querySelectorAll(".button");
-
 
 
 for (var i = 0; i < selectAlumnusButtons.length; i++) {
   selectAlumnusButtons[i].addEventListener("click", function() {
-    modal.classList.add("open");
-    backdrop.style.display='block';
-    setTimeout(function(){
+  modal.classList.add("open");
+  backdrop.style.display='block';
+  setTimeout(function(){
   backdrop.classList.add("open");
   },5);
 
