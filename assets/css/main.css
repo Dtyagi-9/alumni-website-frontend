@@ -1,5 +1,12 @@
 body{
-	width:100%;
+
+	box-sizing: border-box;
+	background-color: #F8F9FA;
+	overflow-x: hidden;
+}
+.card{
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .header-top{
 margin: 30px 30px;
@@ -16,8 +23,8 @@ align-items: baseline;
 	display: inline-block;
 }
 .logo img{
-	width: 175px;
-	height: 175px;
+	width: 75px;
+	height: 75px;
 }
 .info{
 	margin-left: 30px;
@@ -43,12 +50,6 @@ align-items: baseline;
 	height: 700px;
 	background-image: url(../images/loginback.png);
 }
-.quote{
-
-	color: white;	
-
-}
-
 .signupForm{
 	background-color: white;
 	width: 80%;
@@ -61,7 +62,7 @@ align-items: baseline;
 .signupButton{
 	margin: auto; 
 }
-@media (max-width: 990px) {
+@media (max-width: 992px) {
 
 	#navbarNav{
 		position: relative;
@@ -70,4 +71,29 @@ align-items: baseline;
 }
 
 	
+}
+
+#container-change{
+
+	background-color: #f8f9fa !important;
+}
+
+.info h2{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+.info h3{
+	font-family: 'IBM Plex Serif', serif;
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+
+.heading{
+
+	font-size: 250%;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Playfair Display', serif;
 }
